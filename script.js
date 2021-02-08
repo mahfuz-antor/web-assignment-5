@@ -38,10 +38,13 @@ const getLyric = name => {
 const displayLyrics = meal => {
     const div = document.getElementById('song-lyrics');
     div.innerHTML = `
+    <img src="${meal.strMealThumb}">
     <p>${meal.strIngredient1}</p>
     <p>${meal.strIngredient2}</p>
     <p>${meal.strIngredient3}</p>
     <p>${meal.strIngredient4}</p>
+    <p>${meal.strIngredient5}</p>
+    <p>${meal.strIngredient6}</p>
     `;
     div.appendChild(meal);
 }

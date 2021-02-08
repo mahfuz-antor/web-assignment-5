@@ -43,3 +43,9 @@ body{
     width: 300px;
     height: auto;
 }
+.content-area{
+    display: inline !important;
+}
+#song-lyrics img{
+    width: 250px;
+}
