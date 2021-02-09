@@ -1,25 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #13141b;
     color: #ffffff;
-    background-image: url(images/bg-image.png);
-    background-repeat: no-repeat;
+    background-image: url(images/background-img.jpg);
+    background-repeat: repeat;
     background-size: 100%;
     background-position: top;
 }
-
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
 .form-control{
-    background-color:rgba(255, 255, 255, 0.2);
-    padding: 22px;
+    background-color:rgba(72, 225, 245, 0.2);
+    color: white;
+    padding: 15px;
+    margin-left: 200px;
+    width: 500px;
     border: none;
     border-radius: 25px;
+    font-size: 15px;
 }
+
 .btn{
     border-radius: 1.5rem;
     padding: 9px 20px;
 }
 
 .btn-privious{
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(247, 243, 243, 0.089);
     color: #ffffff;
 }
 .navbar-toggler {
@@ -30,9 +47,29 @@ body{
 }
 .search-btn {
     position: absolute;
+    background-color: aqua;
     top: 0;
-    right: 0;
+    padding: 15px;
+    right: 222px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.extra-part{
+    width: 270px;
     height: 100%;
+    border: 2px solid orange;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.element-name{
+    text-align: center;
+}
+.author{
+    text-align: center;
 }
 .single-result{
     background: rgba(255, 255, 255, 0.2);
@@ -40,12 +77,11 @@ body{
 }
 
 .single-result img{
-    width: 300px;
-    height: auto;
-}
-.content-area{
-    display: inline !important;
-}
-#song-lyrics img{
     width: 250px;
+    height: auto;
+    padding: 10px;
+}
+#food-element img{
+    width: 250px;
+    height: auto;
 }
