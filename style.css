@@ -6,7 +6,7 @@ body{
     background-color: #13141b;
     color: #ffffff;
     background-image: url(images/background-img.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
 }
@@ -20,7 +20,7 @@ body{
     margin: 0 auto;
 }
 .form-control{
-    background-color:rgba(72, 225, 245, 0.2);
+    background-color:rgb(236 178 204);
     color: white;
     padding: 15px;
     margin-left: 200px;
@@ -29,7 +29,10 @@ body{
     border-radius: 25px;
     font-size: 15px;
 }
-
+.form-control:hover{
+	background-color: white;
+	color: black;
+}
 .btn{
     border-radius: 1.5rem;
     padding: 9px 20px;
